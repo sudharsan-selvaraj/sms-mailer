@@ -32,7 +32,6 @@ public class CountryListAdapter extends BaseAdapter implements Filterable {
     }
 
     public CountryListAdapter(Context context, int resource, List<Country> countryList) {
-
         this.context = context;
         this.layoutResourceId = resource;
         this.countryList = countryList;
@@ -78,7 +77,6 @@ public class CountryListAdapter extends BaseAdapter implements Filterable {
         return customCountryView;
     }
 
-
     @Override
     public Filter getFilter() {
         if (filter == null) {
@@ -86,7 +84,6 @@ public class CountryListAdapter extends BaseAdapter implements Filterable {
         }
         return filter;
     }
-
 
     private class CountryFilter extends Filter {
 

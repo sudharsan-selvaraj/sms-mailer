@@ -49,7 +49,6 @@ public class CountryPicker extends AppCompatActivity implements SearchView.OnQue
     @Override
     public boolean onQueryTextChange(String newText)
     {
-
         if (newText.equals("")) {
             countryListView.clearTextFilter();
         } else {
@@ -88,11 +87,9 @@ public class CountryPicker extends AppCompatActivity implements SearchView.OnQue
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
         if (item.getItemId() == android.R.id.home) {
             finish();
         }
-
         return super.onOptionsItemSelected(item);
     }
 

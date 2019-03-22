@@ -1,6 +1,5 @@
 package com.madboss.smsmailer.adapters.login;
 
-
 import java.io.Serializable;
 
 public class Country implements Serializable {
