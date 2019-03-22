@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="string resource"
+    android:hint="string resource"
+    android:searchMode="queryRewriteFromText"
+    android:searchButtonText="string resource"
+    android:searchSuggestAuthority="string"
+    android:searchSuggestPath="string"
+    android:searchSuggestSelection="string"
+    android:searchSuggestIntentAction="string"
+    android:searchSuggestIntentData="string"
+    >
+<actionkey
+android:queryActionMsg="string"
+android:suggestActionMsg="string"
+android:suggestActionMsgColumn="string" />
+    </searchable>

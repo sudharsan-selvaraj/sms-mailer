@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+    <string-array name="data000">
+        <item name="code">+93</item>
+        <item name="country">Afghanistan</item>
+        <item name="iso">AF</item>
+        <item name="flag">country_af</item>
+    </string-array>
+    <string-array name="data001">
+        <item name="code">+355</item>
+        <item name="country">Albania</item>
+        <item name="iso">AL</item>
+        <item name="flag">country_al</item>
+    </string-array>
+    <string-array name="data002">
+        <item name="code">+213</item>
+        <item name="country">Algeria</item>
+        <item name="iso">DZ</item>
+        <item name="flag">country_dz</item>
+    </string-array>
+    <string-array name="data004">
+        <item name="code">+376</item>
+        <item name="country">Andorra</item>
+        <item name="iso">AD</item>
+        <item name="flag">country_ad</item>
+    </string-array>
+    <string-array name="data005">
+        <item name="code">+244</item>
+        <item name="country">Angola</item>
+        <item name="iso">AO</item>
+        <item name="flag">country_ao</item>
+    </string-array>
+    <string-array name="data006">
+        <item name="code">+1</item>
+        <item name="country">Anguilla</item>
+        <item name="iso">AI</item>
+        <item name="flag">country_ai</item>
+    </string-array>
+    <string-array name="data007">
+        <item name="code">+1</item>
+        <item name="country">Antigua and Barbuda</item>
+        <item name="iso">AG</item>
+        <item name="flag">country_ag</item>
+    </string-array>
+    <string-array name="data008">
+        <item name="code">+54</item>
+        <item name="country">Argentina</item>
+        <item name="iso">AR</item>
+        <item name="flag">country_ar</item>
+    </string-array>
+    <string-array name="data009">
+        <item name="code">+374</item>
+        <item name="country">Armenia</item>
+        <item name="iso">AM</item>
+        <item name="flag">country_am</item>
+    </string-array>
+    <string-array name="data011">
+        <item name="code">+61</item>
+        <item name="country">Australia</item>
+        <item name="iso">AU</item>
+        <item name="flag">country_au</item>
+    </string-array>
+    <string-array name="data012">
+        <item name="code">+43</item>
+        <item name="country">Austria</item>
+        <item name="iso">AT</item>
+        <item name="flag">country_at</item>
+    </string-array>
+    <string-array name="data013">
+        <item name="code">+994</item>
+        <item name="country">Azerbaijan</item>
+        <item name="iso">AZ</item>
+        <item name="flag">country_az</item>
+    </string-array>
+    <string-array name="data014">
+        <item name="code">+1</item>
+        <item name="country">Bahamas</item>
+        <item name="iso">BS</item>
+        <item name="flag">country_bs</item>
+    </string-array>
+    <string-array name="data015">
+        <item name="code">+973</item>
+        <item name="country">Bahrain</item>
+        <item name="iso">BH</item>
+        <item name="flag">country_bh</item>
+    </string-array>
+    <string-array name="data016">
+        <item name="code">+880</item>
+        <item name="country">Bangladesh</item>
+        <item name="iso">BD</item>
+        <item name="flag">country_bd</item>
+    </string-array>
+    <string-array name="data017">
+        <item name="code">+1</item>
+        <item name="country">Barbados</item>
+        <item name="iso">BB</item>
+        <item name="flag">country_bb</item>
+    </string-array>
+    <string-array name="data018">
+        <item name="code">+375</item>
+        <item name="country">Belarus</item>
+        <item name="iso">BY</item>
+        <item name="flag">country_by</item>
+    </string-array>
+    <string-array name="data019">
+        <item name="code">+32</item>
+        <item name="country">Belgium</item>
+        <item name="iso">BE</item>
+        <item name="flag">country_be</item>
+    </string-array>
+    <string-array name="data020">
+        <item name="code">+501</item>
+        <item name="country">Belize</item>
+        <item name="iso">BZ</item>
+        <item name="flag">country_bz</item>
+    </string-array>
+    <string-array name="data021">
+        <item name="code">+229</item>
+        <item name="country">Benin</item>
+        <item name="iso">BJ</item>
+        <item name="flag">country_bj</item>
+    </string-array>
+    <string-array name="data022">
+        <item name="code">+1</item>
+        <item name="country">Bermuda</item>
+        <item name="iso">BM</item>
+        <item name="flag">country_bm</item>
+    </string-array>
+    <string-array name="data023">
+        <item name="code">+975</item>
+        <item name="country">Bhutan</item>
+        <item name="iso">BT</item>
+        <item name="flag">country_bt</item>
+    </string-array>
+    <string-array name="data024">
+        <item name="code">+591</item>
+        <item name="country">Bolivia</item>
+        <item name="iso">BO</item>
+        <item name="flag">country_bo</item>
+    </string-array>
+    <string-array name="data025">
+        <item name="code">+267</item>
+        <item name="country">Botswana</item>
+        <item name="iso">BW</item>
+        <item name="flag">country_bw</item>
+    </string-array>
+    <string-array name="data026">
+        <item name="code">+55</item>
+        <item name="country">Brazil</item>
+        <item name="iso">BR</item>
+        <item name="flag">country_br</item>
+    </string-array>
+    <string-array name="data027">
+        <item name="code">+226</item>
+        <item name="country">Burkina Faso</item>
+        <item name="iso">BF</item>
+        <item name="flag">country_bf</item>
+    </string-array>
+    <string-array name="data028">
+        <item name="code">+257</item>
+        <item name="country">Burundi</item>
+        <item name="iso">BI</item>
+        <item name="flag">country_bi</item>
+    </string-array>
+    <string-array name="data029">
+        <item name="code">+855</item>
+        <item name="country">Cambodia</item>
+        <item name="iso">KH</item>
+        <item name="flag">country_kh</item>
+    </string-array>
+    <string-array name="data030">
+        <item name="code">+237</item>
+        <item name="country">Cameroon</item>
+        <item name="iso">CM</item>
+        <item name="flag">country_cm</item>
+    </string-array>
+    <string-array name="data031">
+        <item name="code">+1</item>
+        <item name="country">Canada</item>
+        <item name="iso">CA</item>
+        <item name="flag">country_ca</item>
+    </string-array>
+    <string-array name="data032">
+        <item name="code">+238</item>
+        <item name="country">Cape Verde</item>
+        <item name="iso">CV</item>
+        <item name="flag">country_cv</item>
+    </string-array>
+    <string-array name="data033">
+        <item name="code">+1</item>
+        <item name="country">Cayman Islands</item>
+        <item name="iso">KY</item>
+        <item name="flag">country_ky</item>
+    </string-array>
+    <string-array name="data034">
+        <item name="code">+236</item>
+        <item name="country">Central African Republic</item>
+        <item name="iso">CF</item>
+        <item name="flag">country_cf</item>
+    </string-array>
+    <string-array name="data035">
+        <item name="code">+235</item>
+        <item name="country">Chad</item>
+        <item name="iso">TD</item>
+        <item name="flag">country_td</item>
+    </string-array>
+    <string-array name="data036">
+        <item name="code">+56</item>
+        <item name="country">Chile</item>
+        <item name="iso">CL</item>
+        <item name="flag">country_cl</item>
+    </string-array>
+    <string-array name="data037">
+        <item name="code">+86</item>
+        <item name="country">China</item>
+        <item name="iso">CN</item>
+        <item name="flag">country_cn</item>
+    </string-array>
+    <string-array name="data039">
+        <item name="code">+57</item>
+        <item name="country">Colombia</item>
+        <item name="iso">CO</item>
+        <item name="flag">country_co</item>
+    </string-array>
+    <string-array name="data040">
+        <item name="code">+269</item>
+        <item name="country">Comoros</item>
+        <item name="iso">KM</item>
+        <item name="flag">country_km</item>
+    </string-array>
+    <string-array name="data042">
+        <item name="code">+506</item>
+        <item name="country">Costa Rica</item>
+        <item name="iso">CR</item>
+        <item name="flag">country_cr</item>
+    </string-array>
+    <string-array name="data043">
+        <item name="code">+385</item>
+        <item name="country">Croatia</item>
+        <item name="iso">HR</item>
+        <item name="flag">country_hr</item>
+    </string-array>
+    <string-array name="data044">
+        <item name="code">+53</item>
+        <item name="country">Cuba</item>
+        <item name="iso">CU</item>
+        <item name="flag">country_cu</item>
+    </string-array>
+    <string-array name="data045">
+        <item name="code">+420</item>
+        <item name="country">Czech Republic</item>
+        <item name="iso">CZ</item>
+        <item name="flag">country_cz</item>
+    </string-array>
+    <string-array name="data046">
+        <item name="code">+45</item>
+        <item name="country">Denmark</item>
+        <item name="iso">DK</item>
+        <item name="flag">country_dk</item>
+    </string-array>
+    <string-array name="data047">
+        <item name="code">+253</item>
+        <item name="country">Djibouti</item>
+        <item name="iso">DJ</item>
+        <item name="flag">country_dj</item>
+    </string-array>
+    <string-array name="data048">
+        <item name="code">+1</item>
+        <item name="country">Dominica</item>
+        <item name="iso">DM</item>
+        <item name="flag">country_dm</item>
+    </string-array>
+    <string-array name="data050">
+        <item name="code">+593</item>
+        <item name="country">Ecuador</item>
+        <item name="iso">EC</item>
+        <item name="flag">country_ec</item>
+    </string-array>
+    <string-array name="data051">
+        <item name="code">+20</item>
+        <item name="country">Egypt</item>
+        <item name="iso">EG</item>
+        <item name="flag">country_eg</item>
+    </string-array>
+    <string-array name="data052">
+        <item name="code">+503</item>
+        <item name="country">El Salvador</item>
+        <item name="iso">SV</item>
+        <item name="flag">country_sv</item>
+    </string-array>
+    <string-array name="data053">
+        <item name="code">+240</item>
+        <item name="country">Equatorial Guinea</item>
+        <item name="iso">GQ</item>
+        <item name="flag">country_gq</item>
+    </string-array>
+    <string-array name="data054">
+        <item name="code">+291</item>
+        <item name="country">Eritrea</item>
+        <item name="iso">ER</item>
+        <item name="flag">country_er</item>
+    </string-array>
+    <string-array name="data055">
+        <item name="code">+372</item>
+        <item name="country">Estonia</item>
+        <item name="iso">EE</item>
+        <item name="flag">country_ee</item>
+    </string-array>
+    <string-array name="data056">
+        <item name="code">+251</item>
+        <item name="country">Ethiopia</item>
+        <item name="iso">ET</item>
+        <item name="flag">country_et</item>
+    </string-array>
+    <string-array name="data059">
+        <item name="code">+679</item>
+        <item name="country">Fiji</item>
+        <item name="iso">FJ</item>
+        <item name="flag">country_fj</item>
+    </string-array>
+    <string-array name="data060">
+        <item name="code">+358</item>
+        <item name="country">Finland</item>
+        <item name="iso">FI</item>
+        <item name="flag">country_fi</item>
+    </string-array>
+    <string-array name="data061">
+        <item name="code">+33</item>
+        <item name="country">France</item>
+        <item name="iso">FR</item>
+        <item name="flag">country_fr</item>
+    </string-array>
+    <string-array name="data063">
+        <item name="code">+241</item>
+        <item name="country">Gabon</item>
+        <item name="iso">GA</item>
+        <item name="flag">country_ga</item>
+    </string-array>
+    <string-array name="data064">
+        <item name="code">+220</item>
+        <item name="country">Gambia</item>
+        <item name="iso">GM</item>
+        <item name="flag">country_gm</item>
+    </string-array>
+    <string-array name="data065">
+        <item name="code">+995</item>
+        <item name="country">Georgia</item>
+        <item name="iso">GE</item>
+        <item name="flag">country_ge</item>
+    </string-array>
+    <string-array name="data066">
+        <item name="code">+49</item>
+        <item name="country">Germany</item>
+        <item name="iso">DE</item>
+        <item name="flag">country_de</item>
+    </string-array>
+    <string-array name="data067">
+        <item name="code">+233</item>
+        <item name="country">Ghana</item>
+        <item name="iso">GH</item>
+        <item name="flag">country_gh</item>
+    </string-array>
+    <string-array name="data069">
+        <item name="code">+30</item>
+        <item name="country">Greece</item>
+        <item name="iso">GR</item>
+        <item name="flag">country_gr</item>
+    </string-array>
+    <string-array name="data071">
+        <item name="code">+1</item>
+        <item name="country">Grenada</item>
+        <item name="iso">GD</item>
+        <item name="flag">country_gd</item>
+    </string-array>
+    <string-array name="data073">
+        <item name="code">+502</item>
+        <item name="country">Guatemala</item>
+        <item name="iso">GT</item>
+        <item name="flag">country_gt</item>
+    </string-array>
+    <string-array name="data074">
+        <item name="code">+224</item>
+        <item name="country">Guinea</item>
+        <item name="iso">GN</item>
+        <item name="flag">country_gn</item>
+    </string-array>
+    <string-array name="data075">
+        <item name="code">+592</item>
+        <item name="country">Guyana</item>
+        <item name="iso">GY</item>
+        <item name="flag">country_gy</item>
+    </string-array>
+    <string-array name="data076">
+        <item name="code">+509</item>
+        <item name="country">Haiti</item>
+        <item name="iso">HT</item>
+        <item name="flag">country_ht</item>
+    </string-array>
+    <string-array name="data077">
+        <item name="code">+504</item>
+        <item name="country">Honduras</item>
+        <item name="iso">HN</item>
+        <item name="flag">country_hn</item>
+    </string-array>
+    <string-array name="data078">
+        <item name="code">+852</item>
+        <item name="country">Hong Kong</item>
+        <item name="iso">HK</item>
+        <item name="flag">country_hk</item>
+    </string-array>
+    <string-array name="data079">
+        <item name="code">+36</item>
+        <item name="country">Hungary</item>
+        <item name="iso">HU</item>
+        <item name="flag">country_hu</item>
+    </string-array>
+    <string-array name="data080">
+        <item name="code">+354</item>
+        <item name="country">Iceland</item>
+        <item name="iso">IS</item>
+        <item name="flag">country_is</item>
+    </string-array>
+    <string-array name="data081">
+        <item name="code">+91</item>
+        <item name="country">India</item>
+        <item name="iso">IN</item>
+        <item name="flag">country_in</item>
+    </string-array>
+    <string-array name="data082">
+        <item name="code">+62</item>
+        <item name="country">Indonesia</item>
+        <item name="iso">ID</item>
+        <item name="flag">country_id</item>
+    </string-array>
+    <string-array name="data083">
+        <item name="code">+98</item>
+        <item name="country">Iran</item>
+        <item name="iso">IR</item>
+        <item name="flag">country_ir</item>
+    </string-array>
+    <string-array name="data084">
+        <item name="code">+964</item>
+        <item name="country">Iraq</item>
+        <item name="iso">IQ</item>
+        <item name="flag">country_iq</item>
+    </string-array>
+    <string-array name="data085">
+        <item name="code">+353</item>
+        <item name="country">Ireland</item>
+        <item name="iso">IE</item>
+        <item name="flag">country_ie</item>
+    </string-array>
+    <string-array name="data086">
+        <item name="code">+972</item>
+        <item name="country">Israel</item>
+        <item name="iso">IL</item>
+        <item name="flag">country_il</item>
+    </string-array>
+    <string-array name="data087">
+        <item name="code">+39</item>
+        <item name="country">Italy</item>
+        <item name="iso">IT</item>
+        <item name="flag">country_it</item>
+    </string-array>
+    <string-array name="data088">
+        <item name="code">+1</item>
+        <item name="country">Jamaica</item>
+        <item name="iso">JM</item>
+        <item name="flag">country_jm</item>
+    </string-array>
+    <string-array name="data089">
+        <item name="code">+81</item>
+        <item name="country">Japan</item>
+        <item name="iso">JP</item>
+        <item name="flag">country_jp</item>
+    </string-array>
+    <string-array name="data090">
+        <item name="code">+962</item>
+        <item name="country">Jordan</item>
+        <item name="iso">JO</item>
+        <item name="flag">country_jo</item>
+    </string-array>
+    <string-array name="data091">
+        <item name="code">+7</item>
+        <item name="country">Kazakhstan</item>
+        <item name="iso">KZ</item>
+        <item name="flag">country_kz</item>
+    </string-array>
+    <string-array name="data092">
+        <item name="code">+254</item>
+        <item name="country">Kenya</item>
+        <item name="iso">KE</item>
+        <item name="flag">country_ke</item>
+    </string-array>
+    <string-array name="data094">
+        <item name="code">+965</item>
+        <item name="country">Kuwait</item>
+        <item name="iso">KW</item>
+        <item name="flag">country_kw</item>
+    </string-array>
+    <string-array name="data095">
+        <item name="code">+856</item>
+        <item name="country">Laos</item>
+        <item name="iso">LA</item>
+        <item name="flag">country_la</item>
+    </string-array>
+    <string-array name="data096">
+        <item name="code">+371</item>
+        <item name="country">Latvia</item>
+        <item name="iso">LV</item>
+        <item name="flag">country_lv</item>
+    </string-array>
+    <string-array name="data097">
+        <item name="code">+961</item>
+        <item name="country">Lebanon</item>
+        <item name="iso">LB</item>
+        <item name="flag">country_lb</item>
+    </string-array>
+    <string-array name="data098">
+        <item name="code">+266</item>
+        <item name="country">Lesotho</item>
+        <item name="iso">LS</item>
+        <item name="flag">country_ls</item>
+    </string-array>
+    <string-array name="data099">
+        <item name="code">+231</item>
+        <item name="country">Liberia</item>
+        <item name="iso">LR</item>
+        <item name="flag">country_lr</item>
+    </string-array>
+    <string-array name="data100">
+        <item name="code">+218</item>
+        <item name="country">Libya</item>
+        <item name="iso">LY</item>
+        <item name="flag">country_ly</item>
+    </string-array>
+    <string-array name="data101">
+        <item name="code">+423</item>
+        <item name="country">Liechtenstein</item>
+        <item name="iso">LI</item>
+        <item name="flag">country_li</item>
+    </string-array>
+    <string-array name="data102">
+        <item name="code">+370</item>
+        <item name="country">Lithuania</item>
+        <item name="iso">LT</item>
+        <item name="flag">country_lt</item>
+    </string-array>
+    <string-array name="data103">
+        <item name="code">+352</item>
+        <item name="country">Luxembourg</item>
+        <item name="iso">LU</item>
+        <item name="flag">country_lu</item>
+    </string-array>
+    <string-array name="data105">
+        <item name="code">+389</item>
+        <item name="country">Macedonia</item>
+        <item name="iso">MK</item>
+        <item name="flag">country_mk</item>
+    </string-array>
+    <string-array name="data106">
+        <item name="code">+261</item>
+        <item name="country">Madagascar</item>
+        <item name="iso">MG</item>
+        <item name="flag">country_mg</item>
+    </string-array>
+    <string-array name="data107">
+        <item name="code">+265</item>
+        <item name="country">Malawi</item>
+        <item name="iso">MW</item>
+        <item name="flag">country_mw</item>
+    </string-array>
+    <string-array name="data108">
+        <item name="code">+60</item>
+        <item name="country">Malaysia</item>
+        <item name="iso">MY</item>
+        <item name="flag">country_my</item>
+    </string-array>
+    <string-array name="data109">
+        <item name="code">+960</item>
+        <item name="country">Maldives</item>
+        <item name="iso">MV</item>
+        <item name="flag">country_mv</item>
+    </string-array>
+    <string-array name="data110">
+        <item name="code">+223</item>
+        <item name="country">Mali</item>
+        <item name="iso">ML</item>
+        <item name="flag">country_ml</item>
+    </string-array>
+    <string-array name="data111">
+        <item name="code">+356</item>
+        <item name="country">Malta</item>
+        <item name="iso">MT</item>
+        <item name="flag">country_mt</item>
+    </string-array>
+    <string-array name="data114">
+        <item name="code">+222</item>
+        <item name="country">Mauritania</item>
+        <item name="iso">MR</item>
+        <item name="flag">country_mr</item>
+    </string-array>
+    <string-array name="data115">
+        <item name="code">+230</item>
+        <item name="country">Mauritius</item>
+        <item name="iso">MU</item>
+        <item name="flag">country_mu</item>
+    </string-array>
+    <string-array name="data116">
+        <item name="code">+52</item>
+        <item name="country">Mexico</item>
+        <item name="iso">MX</item>
+        <item name="flag">country_mx</item>
+    </string-array>
+    <string-array name="data117">
+        <item name="code">+691</item>
+        <item name="country">Micronesia</item>
+        <item name="iso">FM</item>
+        <item name="flag">country_fm</item>
+    </string-array>
+    <string-array name="data118">
+        <item name="code">+373</item>
+        <item name="country">Moldova</item>
+        <item name="iso">MD</item>
+        <item name="flag">country_md</item>
+    </string-array>
+    <string-array name="data119">
+        <item name="code">+377</item>
+        <item name="country">Monaco</item>
+        <item name="iso">MC</item>
+        <item name="flag">country_mc</item>
+    </string-array>
+    <string-array name="data120">
+        <item name="code">+976</item>
+        <item name="country">Mongolia</item>
+        <item name="iso">MN</item>
+        <item name="flag">country_mn</item>
+    </string-array>
+    <string-array name="data121">
+        <item name="code">+1</item>
+        <item name="country">Montserrat</item>
+        <item name="iso">MS</item>
+        <item name="flag">country_ms</item>
+    </string-array>
+    <string-array name="data122">
+        <item name="code">+212</item>
+        <item name="country">Morocco</item>
+        <item name="iso">MA</item>
+        <item name="flag">country_ma</item>
+    </string-array>
+    <string-array name="data123">
+        <item name="code">+258</item>
+        <item name="country">Mozambique</item>
+        <item name="iso">MZ</item>
+        <item name="flag">country_mz</item>
+    </string-array>
+    <string-array name="data124">
+        <item name="code">+95</item>
+        <item name="country">Myanmar</item>
+        <item name="iso">MM</item>
+        <item name="flag">country_mm</item>
+    </string-array>
+    <string-array name="data125">
+        <item name="code">+264</item>
+        <item name="country">Namibia</item>
+        <item name="iso">NA</item>
+        <item name="flag">country_na</item>
+    </string-array>
+    <string-array name="data127">
+        <item name="code">+977</item>
+        <item name="country">Nepal</item>
+        <item name="iso">NP</item>
+        <item name="flag">country_np</item>
+    </string-array>
+    <string-array name="data128">
+        <item name="code">+31</item>
+        <item name="country">Netherlands</item>
+        <item name="iso">NL</item>
+        <item name="flag">country_nl</item>
+    </string-array>
+    <string-array name="data130">
+        <item name="code">+64</item>
+        <item name="country">New Zealand</item>
+        <item name="iso">NZ</item>
+        <item name="flag">country_nz</item>
+    </string-array>
+    <string-array name="data131">
+        <item name="code">+505</item>
+        <item name="country">Nicaragua</item>
+        <item name="iso">NI</item>
+        <item name="flag">country_ni</item>
+    </string-array>
+    <string-array name="data132">
+        <item name="code">+227</item>
+        <item name="country">Niger</item>
+        <item name="iso">NE</item>
+        <item name="flag">country_ne</item>
+    </string-array>
+    <string-array name="data133">
+        <item name="code">+234</item>
+        <item name="country">Nigeria</item>
+        <item name="iso">NG</item>
+        <item name="flag">country_ng</item>
+    </string-array>
+    <string-array name="data136">
+        <item name="code">+47</item>
+        <item name="country">Norway</item>
+        <item name="iso">NO</item>
+        <item name="flag">country_no</item>
+    </string-array>
+    <string-array name="data137">
+        <item name="code">+968</item>
+        <item name="country">Oman</item>
+        <item name="iso">OM</item>
+        <item name="flag">country_om</item>
+    </string-array>
+    <string-array name="data138">
+        <item name="code">+92</item>
+        <item name="country">Pakistan</item>
+        <item name="iso">PK</item>
+        <item name="flag">country_pk</item>
+    </string-array>
+    <string-array name="data139">
+        <item name="code">+680</item>
+        <item name="country">Palau</item>
+        <item name="iso">PW</item>
+        <item name="flag">country_pw</item>
+    </string-array>
+    <string-array name="data140">
+        <item name="code">+507</item>
+        <item name="country">Panama</item>
+        <item name="iso">PA</item>
+        <item name="flag">country_pa</item>
+    </string-array>
+    <string-array name="data141">
+        <item name="code">+675</item>
+        <item name="country">Papua New Guinea</item>
+        <item name="iso">PG</item>
+        <item name="flag">country_pg</item>
+    </string-array>
+    <string-array name="data142">
+        <item name="code">+595</item>
+        <item name="country">Paraguay</item>
+        <item name="iso">PY</item>
+        <item name="flag">country_py</item>
+    </string-array>
+    <string-array name="data143">
+        <item name="code">+51</item>
+        <item name="country">Peru</item>
+        <item name="iso">PE</item>
+        <item name="flag">country_pe</item>
+    </string-array>
+    <string-array name="data144">
+        <item name="code">+63</item>
+        <item name="country">Philippines</item>
+        <item name="iso">PH</item>
+        <item name="flag">country_ph</item>
+    </string-array>
+    <string-array name="data145">
+        <item name="code">+48</item>
+        <item name="country">Poland</item>
+        <item name="iso">PL</item>
+        <item name="flag">country_pl</item>
+    </string-array>
+    <string-array name="data146">
+        <item name="code">+351</item>
+        <item name="country">Portugal</item>
+        <item name="iso">PT</item>
+        <item name="flag">country_pt</item>
+    </string-array>
+    <string-array name="data147">
+        <item name="code">+1</item>
+        <item name="country">Puerto Rico</item>
+        <item name="iso">PR</item>
+        <item name="flag">country_pr</item>
+    </string-array>
+    <string-array name="data148">
+        <item name="code">+974</item>
+        <item name="country">Qatar</item>
+        <item name="iso">QA</item>
+        <item name="flag">country_qa</item>
+    </string-array>
+    <string-array name="data149">
+        <item name="code">+40</item>
+        <item name="country">Romania</item>
+        <item name="iso">RO</item>
+        <item name="flag">country_ro</item>
+    </string-array>
+    <string-array name="data151">
+        <item name="code">+250</item>
+        <item name="country">Rwanda</item>
+        <item name="iso">RW</item>
+        <item name="flag">country_rw</item>
+    </string-array>
+    <string-array name="data152">
+        <item name="code">+1</item>
+        <item name="country">Saint Kitts and Nevis</item>
+        <item name="iso">KN</item>
+        <item name="flag">country_kn</item>
+    </string-array>
+    <string-array name="data153">
+        <item name="code">+1</item>
+        <item name="country">Saint Lucia</item>
+        <item name="iso">LC</item>
+        <item name="flag">country_lc</item>
+    </string-array>
+    <string-array name="data154">
+        <item name="code">+685</item>
+        <item name="country">Samoa</item>
+        <item name="iso">WS</item>
+        <item name="flag">country_ws</item>
+    </string-array>
+    <string-array name="data155">
+        <item name="code">+378</item>
+        <item name="country">San Marino</item>
+        <item name="iso">SM</item>
+        <item name="flag">country_sm</item>
+    </string-array>
+    <string-array name="data156">
+        <item name="code">+966</item>
+        <item name="country">Saudi Arabia</item>
+        <item name="iso">SA</item>
+        <item name="flag">country_sa</item>
+    </string-array>
+    <string-array name="data157">
+        <item name="code">+221</item>
+        <item name="country">Senegal</item>
+        <item name="iso">SN</item>
+        <item name="flag">country_sn</item>
+    </string-array>
+    <string-array name="data158">
+        <item name="code">+248</item>
+        <item name="country">Seychelles</item>
+        <item name="iso">SC</item>
+        <item name="flag">country_sc</item>
+    </string-array>
+    <string-array name="data159">
+        <item name="code">+232</item>
+        <item name="country">Sierra Leone</item>
+        <item name="iso">SL</item>
+        <item name="flag">country_sl</item>
+    </string-array>
+    <string-array name="data160">
+        <item name="code">+65</item>
+        <item name="country">Singapore</item>
+        <item name="iso">SG</item>
+        <item name="flag">country_sg</item>
+    </string-array>
+    <string-array name="data161">
+        <item name="code">+421</item>
+        <item name="country">Slovakia</item>
+        <item name="iso">SK</item>
+        <item name="flag">country_sk</item>
+    </string-array>
+    <string-array name="data162">
+        <item name="code">+386</item>
+        <item name="country">Slovenia</item>
+        <item name="iso">SI</item>
+        <item name="flag">country_si</item>
+    </string-array>
+    <string-array name="data163">
+        <item name="code">+252</item>
+        <item name="country">Somalia</item>
+        <item name="iso">SO</item>
+        <item name="flag">country_so</item>
+    </string-array>
+    <string-array name="data164">
+        <item name="code">+27</item>
+        <item name="country">South Africa</item>
+        <item name="iso">ZA</item>
+        <item name="flag">country_za</item>
+    </string-array>
+    <string-array name="data165">
+        <item name="code">+34</item>
+        <item name="country">Spain</item>
+        <item name="iso">ES</item>
+        <item name="flag">country_es</item>
+    </string-array>
+    <string-array name="data166">
+        <item name="code">+94</item>
+        <item name="country">Sri Lanka</item>
+        <item name="iso">LK</item>
+        <item name="flag">country_lk</item>
+    </string-array>
+    <string-array name="data167">
+        <item name="code">+249</item>
+        <item name="country">Sudan</item>
+        <item name="iso">SD</item>
+        <item name="flag">country_sd</item>
+    </string-array>
+    <string-array name="data168">
+        <item name="code">+597</item>
+        <item name="country">Suriname</item>
+        <item name="iso">SR</item>
+        <item name="flag">country_sr</item>
+    </string-array>
+    <string-array name="data169">
+        <item name="code">+268</item>
+        <item name="country">Swaziland</item>
+        <item name="iso">SZ</item>
+        <item name="flag">country_sz</item>
+    </string-array>
+    <string-array name="data170">
+        <item name="code">+46</item>
+        <item name="country">Sweden</item>
+        <item name="iso">SE</item>
+        <item name="flag">country_se</item>
+    </string-array>
+    <string-array name="data171">
+        <item name="code">+41</item>
+        <item name="country">Switzerland</item>
+        <item name="iso">CH</item>
+        <item name="flag">country_ch</item>
+    </string-array>
+    <string-array name="data172">
+        <item name="code">+963</item>
+        <item name="country">Syria</item>
+        <item name="iso">SY</item>
+        <item name="flag">country_sy</item>
+    </string-array>
+    <string-array name="data173">
+        <item name="code">+886</item>
+        <item name="country">Taiwan</item>
+        <item name="iso">TW</item>
+        <item name="flag">country_tw</item>
+    </string-array>
+    <string-array name="data174">
+        <item name="code">+992</item>
+        <item name="country">Tajikistan</item>
+        <item name="iso">TJ</item>
+        <item name="flag">country_tj</item>
+    </string-array>
+    <string-array name="data175">
+        <item name="code">+255</item>
+        <item name="country">Tanzania</item>
+        <item name="iso">TZ</item>
+        <item name="flag">country_tz</item>
+    </string-array>
+    <string-array name="data176">
+        <item name="code">+66</item>
+        <item name="country">Thailand</item>
+        <item name="iso">TH</item>
+        <item name="flag">country_th</item>
+    </string-array>
+    <string-array name="data177">
+        <item name="code">+670</item>
+        <item name="country">Timor-Leste</item>
+        <item name="iso">TL</item>
+        <item name="flag">country_tl</item>
+    </string-array>
+    <string-array name="data178">
+        <item name="code">+228</item>
+        <item name="country">Togo</item>
+        <item name="iso">TG</item>
+        <item name="flag">country_tg</item>
+    </string-array>
+    <string-array name="data179">
+        <item name="code">+676</item>
+        <item name="country">Tonga</item>
+        <item name="iso">TO</item>
+        <item name="flag">country_to</item>
+    </string-array>
+    <string-array name="data180">
+        <item name="code">+1</item>
+        <item name="country">Trinidad and Tobago</item>
+        <item name="iso">TT</item>
+        <item name="flag">country_tt</item>
+    </string-array>
+    <string-array name="data181">
+        <item name="code">+216</item>
+        <item name="country">Tunisia</item>
+        <item name="iso">TN</item>
+        <item name="flag">country_tn</item>
+    </string-array>
+    <string-array name="data182">
+        <item name="code">+90</item>
+        <item name="country">Turkey</item>
+        <item name="iso">TR</item>
+        <item name="flag">country_tr</item>
+    </string-array>
+    <string-array name="data183">
+        <item name="code">+993</item>
+        <item name="country">Turkmenistan</item>
+        <item name="iso">TM</item>
+        <item name="flag">country_tm</item>
+    </string-array>
+    <string-array name="data184">
+        <item name="code">+1</item>
+        <item name="country">Turks and Caicos Islands</item>
+        <item name="iso">TC</item>
+        <item name="flag">country_tc</item>
+    </string-array>
+    <string-array name="data186">
+        <item name="code">+256</item>
+        <item name="country">Uganda</item>
+        <item name="iso">UG</item>
+        <item name="flag">country_ug</item>
+    </string-array>
+    <string-array name="data187">
+        <item name="code">+380</item>
+        <item name="country">Ukraine</item>
+        <item name="iso">UA</item>
+        <item name="flag">country_ua</item>
+    </string-array>
+    <string-array name="data188">
+        <item name="code">+44</item>
+        <item name="country">United Kingdom</item>
+        <item name="iso">GB</item>
+        <item name="flag">country_gb</item>
+    </string-array>
+    <string-array name="data189">
+        <item name="code">+1</item>
+        <item name="country">United States</item>
+        <item name="iso">US</item>
+        <item name="flag">country_us</item>
+    </string-array>
+    <string-array name="data190">
+        <item name="code">+598</item>
+        <item name="country">Uruguay</item>
+        <item name="iso">UY</item>
+        <item name="flag">country_uy</item>
+    </string-array>
+    <string-array name="data191">
+        <item name="code">+998</item>
+        <item name="country">Uzbekistan</item>
+        <item name="iso">UZ</item>
+        <item name="flag">country_uz</item>
+    </string-array>
+    <string-array name="data193">
+        <item name="code">+58</item>
+        <item name="country">Venezuela</item>
+        <item name="iso">VE</item>
+        <item name="flag">country_ve</item>
+    </string-array>
+    <string-array name="data194">
+        <item name="code">+967</item>
+        <item name="country">Yemen</item>
+        <item name="iso">YE</item>
+        <item name="flag">country_ye</item>
+    </string-array>
+    <string-array name="data196">
+        <item name="code">+263</item>
+        <item name="country">Zimbabwe</item>
+        <item name="iso">ZW</item>
+        <item name="flag">country_zw</item>
+    </string-array>
+    <array name="countries">
+        <item>@array/data000</item>
+        <item>@array/data001</item>
+        <item>@array/data002</item>
+        <item>@array/data004</item>
+        <item>@array/data005</item>
+        <item>@array/data006</item>
+        <item>@array/data007</item>
+        <item>@array/data008</item>
+        <item>@array/data009</item>
+        <item>@array/data011</item>
+        <item>@array/data012</item>
+        <item>@array/data013</item>
+        <item>@array/data014</item>
+        <item>@array/data015</item>
+        <item>@array/data016</item>
+        <item>@array/data017</item>
+        <item>@array/data018</item>
+        <item>@array/data019</item>
+        <item>@array/data020</item>
+        <item>@array/data021</item>
+        <item>@array/data022</item>
+        <item>@array/data023</item>
+        <item>@array/data024</item>
+        <item>@array/data025</item>
+        <item>@array/data026</item>
+        <item>@array/data027</item>
+        <item>@array/data028</item>
+        <item>@array/data029</item>
+        <item>@array/data030</item>
+        <item>@array/data031</item>
+        <item>@array/data032</item>
+        <item>@array/data033</item>
+        <item>@array/data034</item>
+        <item>@array/data035</item>
+        <item>@array/data036</item>
+        <item>@array/data037</item>
+        <item>@array/data039</item>
+        <item>@array/data040</item>
+        <item>@array/data042</item>
+        <item>@array/data043</item>
+        <item>@array/data044</item>
+        <item>@array/data045</item>
+        <item>@array/data046</item>
+        <item>@array/data047</item>
+        <item>@array/data048</item>
+        <item>@array/data050</item>
+        <item>@array/data051</item>
+        <item>@array/data052</item>
+        <item>@array/data053</item>
+        <item>@array/data054</item>
+        <item>@array/data055</item>
+        <item>@array/data056</item>
+        <item>@array/data059</item>
+        <item>@array/data060</item>
+        <item>@array/data061</item>
+        <item>@array/data063</item>
+        <item>@array/data064</item>
+        <item>@array/data065</item>
+        <item>@array/data066</item>
+        <item>@array/data067</item>
+        <item>@array/data069</item>
+        <item>@array/data071</item>
+        <item>@array/data073</item>
+        <item>@array/data074</item>
+        <item>@array/data075</item>
+        <item>@array/data076</item>
+        <item>@array/data077</item>
+        <item>@array/data078</item>
+        <item>@array/data079</item>
+        <item>@array/data080</item>
+        <item>@array/data081</item>
+        <item>@array/data082</item>
+        <item>@array/data083</item>
+        <item>@array/data084</item>
+        <item>@array/data085</item>
+        <item>@array/data086</item>
+        <item>@array/data087</item>
+        <item>@array/data088</item>
+        <item>@array/data089</item>
+        <item>@array/data090</item>
+        <item>@array/data091</item>
+        <item>@array/data092</item>
+        <item>@array/data094</item>
+        <item>@array/data095</item>
+        <item>@array/data096</item>
+        <item>@array/data097</item>
+        <item>@array/data098</item>
+        <item>@array/data099</item>
+        <item>@array/data100</item>
+        <item>@array/data101</item>
+        <item>@array/data102</item>
+        <item>@array/data103</item>
+        <item>@array/data105</item>
+        <item>@array/data106</item>
+        <item>@array/data107</item>
+        <item>@array/data108</item>
+        <item>@array/data109</item>
+        <item>@array/data110</item>
+        <item>@array/data111</item>
+        <item>@array/data114</item>
+        <item>@array/data115</item>
+        <item>@array/data116</item>
+        <item>@array/data117</item>
+        <item>@array/data118</item>
+        <item>@array/data119</item>
+        <item>@array/data120</item>
+        <item>@array/data121</item>
+        <item>@array/data122</item>
+        <item>@array/data123</item>
+        <item>@array/data124</item>
+        <item>@array/data125</item>
+        <item>@array/data127</item>
+        <item>@array/data128</item>
+        <item>@array/data130</item>
+        <item>@array/data131</item>
+        <item>@array/data132</item>
+        <item>@array/data133</item>
+        <item>@array/data136</item>
+        <item>@array/data137</item>
+        <item>@array/data138</item>
+        <item>@array/data139</item>
+        <item>@array/data140</item>
+        <item>@array/data141</item>
+        <item>@array/data142</item>
+        <item>@array/data143</item>
+        <item>@array/data144</item>
+        <item>@array/data145</item>
+        <item>@array/data146</item>
+        <item>@array/data147</item>
+        <item>@array/data148</item>
+        <item>@array/data149</item>
+        <item>@array/data151</item>
+        <item>@array/data152</item>
+        <item>@array/data153</item>
+        <item>@array/data154</item>
+        <item>@array/data155</item>
+        <item>@array/data156</item>
+        <item>@array/data157</item>
+        <item>@array/data158</item>
+        <item>@array/data159</item>
+        <item>@array/data160</item>
+        <item>@array/data161</item>
+        <item>@array/data162</item>
+        <item>@array/data163</item>
+        <item>@array/data164</item>
+        <item>@array/data165</item>
+        <item>@array/data166</item>
+        <item>@array/data167</item>
+        <item>@array/data168</item>
+        <item>@array/data169</item>
+        <item>@array/data170</item>
+        <item>@array/data171</item>
+        <item>@array/data172</item>
+        <item>@array/data173</item>
+        <item>@array/data174</item>
+        <item>@array/data175</item>
+        <item>@array/data176</item>
+        <item>@array/data177</item>
+        <item>@array/data178</item>
+        <item>@array/data179</item>
+        <item>@array/data180</item>
+        <item>@array/data181</item>
+        <item>@array/data182</item>
+        <item>@array/data183</item>
+        <item>@array/data184</item>
+        <item>@array/data186</item>
+        <item>@array/data187</item>
+        <item>@array/data188</item>
+        <item>@array/data189</item>
+        <item>@array/data190</item>
+        <item>@array/data191</item>
+        <item>@array/data193</item>
+        <item>@array/data194</item>
+        <item>@array/data196</item>
+    </array>
+</resources>

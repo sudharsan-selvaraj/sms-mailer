@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sms Mailer</string>
+    <string name="title_activity_terms_and_conditions">TermsAndConditions</string>
+    <string name="title_activity_country_picker">CountryPickerActivity</string>
+</resources>
