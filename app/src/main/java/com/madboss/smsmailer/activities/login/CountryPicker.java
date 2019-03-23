@@ -1,4 +1,4 @@
-package com.madboss.smsmailer.activities;
+package com.madboss.smsmailer.activities.login;
 
 import android.content.Intent;
 import android.graphics.Color;

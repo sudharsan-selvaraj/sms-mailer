@@ -2,14 +2,12 @@ package com.madboss.smsmailer.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
 import com.madboss.smsmailer.R;
+import com.madboss.smsmailer.activities.login.RequestOTPActivity;
 
 public class TermsAndConditions extends AppCompatActivity {
 
@@ -31,7 +29,7 @@ public class TermsAndConditions extends AppCompatActivity {
         agreeButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(TermsAndConditions.this, LoginActivity.class);
+                Intent i = new Intent(TermsAndConditions.this, RequestOTPActivity.class);
                 startActivity(i);
             }
         });

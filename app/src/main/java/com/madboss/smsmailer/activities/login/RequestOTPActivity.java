@@ -1,11 +1,8 @@
-package com.madboss.smsmailer.activities;
+package com.madboss.smsmailer.activities.login;
 
 import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.ScaleDrawable;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -23,19 +20,22 @@ import java.util.List;
 import com.madboss.smsmailer.adapters.login.Country;
 import com.madboss.smsmailer.adapters.login.CountryDataProvider;
 
-public class LoginActivity extends AppCompatActivity {
+public class RequestOTPActivity extends AppCompatActivity {
 
-    EditText phoneNumberInput;
-    Button nextButton;
     TextView country;
     TextView countryCode;
+
+    EditText phoneNumberInput;
+
+    Button nextButton;
+
     Country selectedCountry;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_request_otp);
 
         initElements();
         initView();
@@ -64,6 +64,9 @@ public class LoginActivity extends AppCompatActivity {
                 String getPhoneNumber = getPhoneNumber();
                 if (getPhoneNumber.length() == 0) {
                     Toast.makeText(getBaseContext(), "Please enter the phone number", Toast.LENGTH_LONG).show();
+                } else {
+                    Intent otpVerificationIntent = new Intent(RequestOTPActivity.this, OTPVerificationActivity.class);
+                    startActivityForResult(otpVerificationIntent, 2);
                 }
             }
         });
@@ -71,7 +74,7 @@ public class LoginActivity extends AppCompatActivity {
         country.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(LoginActivity.this, CountryPicker.class);
+                Intent i = new Intent(RequestOTPActivity.this, CountryPicker.class);
                 i.setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP);
                 startActivityForResult(i, 1);
             }
@@ -87,6 +90,10 @@ public class LoginActivity extends AppCompatActivity {
         if (requestCode == 1) {
             if (resultCode == RESULT_OK) {
                 refreshViewWithData((Country) data.getSerializableExtra("selectedCountry"));
+            }
+        } else if (requestCode == 2) {
+            if (resultCode == RESULT_OK) {
+                Toast.makeText(getBaseContext(), "OTP Entered", Toast.LENGTH_LONG).show();
             }
         }
     }
@@ -119,7 +126,7 @@ public class LoginActivity extends AppCompatActivity {
 
     public int getCountryFlag(String flagname) {
         flagname = flagname.substring(flagname.lastIndexOf('/') + 1);
-        int id = getResources().getIdentifier(flagname, "drawable", LoginActivity.this.getPackageName());
+        int id = getResources().getIdentifier(flagname, "drawable", RequestOTPActivity.this.getPackageName());
         return id;
     }
 }
