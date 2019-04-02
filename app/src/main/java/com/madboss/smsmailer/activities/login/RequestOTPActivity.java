@@ -66,6 +66,7 @@ public class RequestOTPActivity extends AppCompatActivity {
                     Toast.makeText(getBaseContext(), "Please enter the phone number", Toast.LENGTH_LONG).show();
                 } else {
                     Intent otpVerificationIntent = new Intent(RequestOTPActivity.this, OTPVerificationActivity.class);
+                    otpVerificationIntent.putExtra("phone", getEnteredPhoneNumber());
                     startActivityForResult(otpVerificationIntent, 2);
                 }
             }
@@ -81,19 +82,23 @@ public class RequestOTPActivity extends AppCompatActivity {
         });
     }
 
+    private String getEnteredPhoneNumber() {
+        return selectedCountry.code + "" + phoneNumberInput.getText();
+    }
+
     private void initView() {
         phoneNumberInput.requestFocus();
     }
 
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (requestCode == 1) {
+        if (requestCode == 1) { //result from country picker
             if (resultCode == RESULT_OK) {
                 refreshViewWithData((Country) data.getSerializableExtra("selectedCountry"));
             }
-        } else if (requestCode == 2) {
-            if (resultCode == RESULT_OK) {
-                Toast.makeText(getBaseContext(), "OTP Entered", Toast.LENGTH_LONG).show();
+        } else if (requestCode == 2) { //result from otp verification activity
+            if (resultCode == 2 || resultCode == 3) {
+                Toast.makeText(getBaseContext(), data.getStringExtra("exception"), Toast.LENGTH_LONG).show();
             }
         }
     }

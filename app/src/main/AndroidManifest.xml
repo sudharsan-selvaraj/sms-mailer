@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.login.OTPVerificationActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+        <activity
+            android:name=".activities.main.BaseActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".activities.login.OTPVerificationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.login.CountryPicker"
             android:launchMode="singleTask"
