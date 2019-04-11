@@ -7,7 +7,7 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.telephony.SmsMessage;
 
-public abstract class OtpListener extends BroadcastReceiver {
+public abstract class SMSReciever extends BroadcastReceiver {
 
     public static final String ACTION_TOKEN = "android.provider.Telephony.SMS_RECEIVED";
     public static final String SMS_BUNDLE = "pdus";
@@ -15,7 +15,7 @@ public abstract class OtpListener extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
 
-        if (ACTION_TOKEN.equals(intent.getAction())) {
+        if(intent.getAction().equals(ACTION_TOKEN)){
             Bundle bundle = intent.getExtras();
             SmsMessage[] msgs = null;
             if (bundle != null){
@@ -24,9 +24,9 @@ public abstract class OtpListener extends BroadcastReceiver {
                     msgs = new SmsMessage[pdus.length];
                     for(int i=0; i<msgs.length; i++){
                         msgs[i] = SmsMessage.createFromPdu((byte[])pdus[i]);
-                        String msgBody = msgs[i].getMessageBody();
+                        onMessage(msgs[i]);
                     }
-                } catch(Exception e) {
+                }catch(Exception e){
 
                 }
             }
@@ -38,6 +38,6 @@ public abstract class OtpListener extends BroadcastReceiver {
         return filter;
     }
 
-    public abstract void onNewToken(String token);
+    public abstract void onMessage(SmsMessage message);
 
 }

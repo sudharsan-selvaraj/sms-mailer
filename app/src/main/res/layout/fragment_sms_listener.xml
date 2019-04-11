@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.SmsListenerFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/startSmsListenerButtonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <Button
+                android:id="@+id/startSmsListener"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="START"
+                android:textColor="@color/white"
+                android:background="@drawable/round_button"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Press start button to start listening for incoming messages"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/stopSmsListenerButtonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible">
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieListeningView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="listening.json"
+                app:lottie_loop="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

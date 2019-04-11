@@ -8,12 +8,10 @@
     tools:context=".activities.main.BaseActivity"
     tools:showIn="@layout/app_bar_base">
 
-    <TextView
-        android:id="@+id/userInfoLabel"
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toStartOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_container">
+    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>

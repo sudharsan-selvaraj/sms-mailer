@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.madboss.smsmailer">
+<uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -18,12 +21,10 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.login.CountryPicker"
-            android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".activities.TermsAndConditions"
             android:label="@string/app_name"
-            android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,6 +37,7 @@
             android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan" />
+        <service android:name=".services.SmsListenerService"></service>
     </application>
 
 </manifest>

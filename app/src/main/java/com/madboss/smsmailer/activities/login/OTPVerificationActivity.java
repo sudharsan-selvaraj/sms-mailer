@@ -24,8 +24,13 @@ import com.google.firebase.FirebaseTooManyRequestsException;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.madboss.smsmailer.R;
 import com.madboss.smsmailer.activities.main.BaseActivity;
 
@@ -149,8 +154,22 @@ public class OTPVerificationActivity extends AppCompatActivity {
             public void onComplete(@NonNull Task<AuthResult> task) {
                 hideProgressbar();
                 if (task.isSuccessful()) {
+                    final FirebaseUser firebaseUser = task.getResult().getUser();
+                    FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                            if(!dataSnapshot.exists()) {
+                                FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser.getUid()).setValue(firebaseUser);
+                            }
+                        }
+
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                        }
+                    });
                     Intent i = new Intent(OTPVerificationActivity.this, BaseActivity.class);
-                    i.putExtra("user",task.getResult().getUser());
+                    i.putExtra("user",firebaseUser);
                     i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(i);
                 } else {
