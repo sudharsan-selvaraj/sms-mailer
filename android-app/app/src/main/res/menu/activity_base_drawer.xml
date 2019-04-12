@@ -6,12 +6,13 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_sms_listener"
-            android:icon="@drawable/ic_menu_share"
+            android:icon="@drawable/ic_wifi_24"
             android:title="SMS Listener Service" />
         <item
             android:id="@+id/nav_active_connections"
             android:icon="@drawable/ic_wifi_24"
-            android:title="Active connections"/>
+            android:title="Active connections"
+            android:visible="false"/>
     </group>
 
     <!--<item android:title="Communicate">-->

@@ -54,7 +54,7 @@ public class SmsListenerService extends Service {
         networkChangeListener = new NetworkChangeListener() {
             @Override
             public void onChange(Boolean _isOnline) {
-                updateOnlineStatus(_isOnline && isRunning);
+                //updateOnlineStatus(_isOnline && isRunning);
             }
         };
 
@@ -80,7 +80,6 @@ public class SmsListenerService extends Service {
                     .setContentIntent(pendingIntent)
                     .build();
             startForeground(100,notification);
-            updateOnlineStatus(true);
         }
         return START_STICKY;
     }
@@ -91,7 +90,6 @@ public class SmsListenerService extends Service {
             isRunning = false;
             unregisterReceiver(smsReciever);
             unregisterReceiver(networkChangeListener);
-            updateOnlineStatus(false);
         }
         super.onDestroy();
     }

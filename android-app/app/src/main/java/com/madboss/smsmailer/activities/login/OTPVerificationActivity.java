@@ -159,7 +159,7 @@ public class OTPVerificationActivity extends AppCompatActivity {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                             if(!dataSnapshot.exists()) {
-                                FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser.getUid()).setValue(firebaseUser);
+                                FirebaseDatabase.getInstance().getReference("Users").child(firebaseUser.getUid()).child("info").setValue(firebaseUser);
                             }
                         }
 
